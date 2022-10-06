@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:enabled="true"
+        android:icon="@drawable/bottomnavi_audio"
+        android:title="오디오 작업"/>
+
+    <item
+        android:id="@+id/bottom_news"
+        android:enabled="true"
+        android:icon="@drawable/bottomnavi_video"
+        android:title="비디오 작업"/>
+
+    <item
+        android:id="@+id/bottom_quiz"
+        android:enabled="true"
+        android:icon="@drawable/bottomnavi_record"
+        android:title="기록"/>
+
+    <item
+        android:id="@+id/bottom_reward"
+        android:enabled="true"
+        android:icon="@drawable/bottomnavi_setting"
+        android:title="설정"/>
+
+</menu>

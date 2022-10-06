@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        />
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NOISE"
+        android:layout_weight="1"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="70dp"/>
+
+    <TextView
+        android:id="@+id/app_subname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="노이즈 제거 앱"
+        android:layout_weight="1"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_margin="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:src="@drawable/yonsei_markxml"
+
+        />
+</LinearLayout>
